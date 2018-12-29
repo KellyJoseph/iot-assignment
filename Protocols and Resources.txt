@@ -1,0 +1,18 @@
+https://iot-assignment2.glitch.me/url
+
+https://medium.com/@onejohi/building-a-simple-rest-api-with-nodejs-and-express-da6273ed7ca9
+The above teaches about API design using node.js and express, like Glitch. 
+
+https://medium.com/@onejohi/mean-stack-quick-guide-f50351ba56eb
+The above goes into the MEAN stack (MongoDB, Express, Angular, Node.js)
+
+https://stackoverflow.com/questions/13121590/steps-to-send-a-https-request-to-a-rest-service-in-node-js
+https request used in my node.js app to get token from my website api
+
+protocols used: MQTT (wia stream connect), HTTP (my app). TCP/IP protocols (Blynk).
+
+Suggested improvements. As it stands, there is a single node app running on my rpi. It can only interact with
+one Blynk app at a time. It would be good if an instance of the app could be executed on teh browser of teh client
+using my glitch web app rather than on my pi. As a result of this, I hardcoded the wia app widget from my wia account. 
+With each client executing their own instance of the app in browser, multiple users could use my web app simultaneously.
+We haven't covered WAN servers in this course, nor creating node apps that are downloaded and executed in browser.  
