@@ -16,3 +16,19 @@ Because the web app is only interacting with one instance of blynkapp.js running
 track only one device at time, so while functional for one user at a time, this project is not suitable for multiple simultaneous 
 users, which I doubt will be a problem!
 A video walkthrough of this project is available at https://youtu.be/Qp38Z7ObxOo
+
+
+https://medium.com/@onejohi/building-a-simple-rest-api-with-nodejs-and-express-da6273ed7ca9
+The above teaches about API design using node.js and express, like Glitch. 
+
+https://medium.com/@onejohi/mean-stack-quick-guide-f50351ba56eb
+The above goes into the MEAN stack (MongoDB, Express, Angular, Node.js). MongoDB is not compatible with Glitch, so lowdb,
+a very similar nosql document database was used. Express was used for the glitch API. 
+
+https://stackoverflow.com/questions/13121590/steps-to-send-a-https-request-to-a-rest-service-in-node-js
+https request used in my node.js app to get token from my website api
+
+https://stackoverflow.com/questions/6432693/post-data-with-request-module-on-node-js/38989671
+http post request and form data examples used in my app for interacting with ThingTweet API
+
+protocols used: MQTT (wia stream connect), HTTP (my app). TCP/IP protocols (Blynk).
