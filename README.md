@@ -15,3 +15,4 @@ activate their blynk app if they wish to be tracked.
 Because the web app is only interacting with one instance of blynkapp.js running on my workstation, only one user can log in and 
 track only one device at time, so while functional for one user at a time, this project is not suitable for multiple simultaneous 
 users, which I doubt will be a problem!
+A video walkthrough of this project is available at https://youtu.be/Qp38Z7ObxOo
