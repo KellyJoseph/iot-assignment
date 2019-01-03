@@ -31,4 +31,6 @@ https request used in my node.js app to get token from my website api
 https://stackoverflow.com/questions/6432693/post-data-with-request-module-on-node-js/38989671
 http post request and form data examples used in my app for interacting with ThingTweet API
 
-protocols used: MQTT (wia stream connect), HTTP (my app). TCP/IP protocols (Blynk).
+Application layer protocols used: HTTP, MQTT (wia stream connect. Not sure what protocols Blynk uses.
+Trasport/Network layer protocols used: TCP/IP
+
