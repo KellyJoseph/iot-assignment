@@ -13,8 +13,10 @@ blynkapp.js also obtains a name from the same object. This name is used in a HTT
 API that is integrated with the Twitter API, sending a tweet to notify all followers that "name" is being followed and to
 activate their blynk app if they wish to be tracked.
 Because the web app is only interacting with one instance of blynkapp.js running on my workstation, only one user can log in and 
-track only one device at time, so while functional for one user at a time, this project is not suitable for multiple simultaneous 
-users, which I doubt will be a problem!
+track only one device at time, so while functional for one user at a time, this project is not suitable for multiple simultaneous. One solution may be to have an instance of this app execute in the user's browser when their device is selected and the auth token sent to it. 
+users.
+Another solution may be to have the blynkSync and wia write functions as objects, with new instances created when users make a HTTP request from my Glitch web app to my raspberry pi. In order to implement this, I would need to set up an apache web server on my rpi,a static IP address and obtain a domain name. My Raspberry Pi server is at present only on my LAN and not accessible from Glitch. 
+
 A video walkthrough of this project is available at https://youtu.be/Qp38Z7ObxOo
 
 
