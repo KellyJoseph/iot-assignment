@@ -1,0 +1,36 @@
+
+<h3>
+  Devices
+</h3>
+<table class ="ui fixed table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Auth Token </th>
+      <th>wia secret key</th>
+      <th>Map</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+  {{#each devices}}
+    <tbody>
+    <tr>
+      <td>
+        {{name}}
+      </td>
+      <td>
+        {{authtoken}}
+      </td>
+      <td>
+        {{wiasecretkey}}
+      </td>
+      <td>
+      <a id="displaymap" class="item" href="/displaymap/viewmap/{{deviceid}}"> Map  </a>
+      </td>
+      <td>
+        <a href="/dashboard/deletedevice/{{deviceid}}"> <i class="large trash alternate icon"></i>
+        </a>
+      </td>
+  </tbody>
+  {{/each}}
+</table>

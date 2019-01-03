@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "userid": "cbcf97d2-b105-414a-a292-83650bad1028",
+      "deviceid": "ff5db8d3-962e-4fb5-a7ec-1a4a79ceb72e",
+      "name": "Joe",
+      "authtoken": "23be80b8c0294c56b9018ced6848a99c",
+      "wiasecretkey": "d_sk_olQOqWNVpPcqd2N6Y3QFULei"
+    },
+    {
+      "userid": "cbcf97d2-b105-414a-a292-83650bad1028",
+      "deviceid": "8ac7321f-1568-4adc-963e-1d6b6da1d7dd",
+      "name": "James",
+      "authtoken": "9ecb03da81db4fa1bdd6e691388323e2",
+      "wiasecretkey": "d_sk_olQOqWNVpPcqd2N6Y3QFULei"
+    }
+  ]
+}

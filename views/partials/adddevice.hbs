@@ -1,0 +1,30 @@
+<h3>
+  Add Device
+</h3>
+<div ="ui segment">
+   
+<form class="ui stacked segment form" action="/dashboard/adddevice/{{user.id}}" method="POST">
+  
+  <div class="three fields">
+    
+        <div class="field">
+            <label>Name</label>
+            <input placeholder="name" type="text" name="name">
+        </div>
+    
+        <div class="field">
+            <label>Auth Token</label>
+            <input placeholder="Blynk Auth Token type="text" name="authtoken">
+        </div>
+    
+        <div class="field">
+            <label>wia Secret Key</label>
+            <input placeholder="wia Secret Key" type="text" name="wiasecretkey">
+        </div>
+          
+    </div>
+    
+      
+    <button class="ui green submit button">Add Device</button>
+</form>
+</div>

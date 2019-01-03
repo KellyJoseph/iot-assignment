@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "firstName": "Joseph",
+      "lastName": "Kelly",
+      "email": "joemickkelly@yahoo.com",
+      "password": "secret",
+      "id": "cbcf97d2-b105-414a-a292-83650bad1028",
+      "activeauthtoken": "placeholder"
+    },
+    {
+      "firstName": "Eri",
+      "lastName": "Nishida",
+      "email": "eri@nishida.com",
+      "password": "secret",
+      "id": "7dd21ca6-c636-48e7-82d8-3a8c13757733",
+      "activeauthtoken": "placeholder"
+
+    },
+    {
+      "firstName": "Finn",
+      "lastName": "Murtons",
+      "email": "finn@murtons.com",
+      "password": "secret",
+      "id": "bd6f1fc4-7b0d-4135-999e-66fcb7553cdd",
+      "activeauthtoken": "placeholder"
+    }
+  ]
+}
